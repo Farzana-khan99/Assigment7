@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form 1</title>
+  </head>
+  <body>
+    <h1>Accounting Opening Form</h1>
+    <form action="">
+      <table>
+        <tr>
+          <th><h4>Personal Details</h4></th>
+        </tr>
+        <tr>
+          <td><label for="">Name*</label></td>
+          <td><input type="text" name="name" /></td>
+        </tr>
+        <tr>
+          <td>
+            <label for="">Name of</label>
+            <br />
+            <span>Father / Guradian</span>
+          </td>
+          <td><input type="text" name="name" /></td>
+        </tr>
+        <tr>
+            <td>Date of Birth</td>
+            <td><input type="date" ></td>
+        </tr>
+        <tr>
+            <td><label for="">Gender*</label></td>
+            <td><input type="radio" name="Gender" value="Male"><label for="">Male</label><input type="radio" name="Gender" value="Female"><label for="">Female</label></td>
+        </tr>
+        <tr>
+          <td><label for="">Nationality</label></td>
+          <td><input type="text" name="Nationality"></td>
+        </tr>
+        <tr>
+          <td>Account Type*</td>
+          <td>
+            <input type="radio" name="acount" value="Saving"><label for="">Saving</label>
+            <input type="radio" name="acount" value="fixed"><label for="">Fixed</label>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="">Preference</label></td>
+          <td>
+            <input type="checkbox" value="Internet Banking"><label for="">Internet Banking</label>
+            <input type="checkbox" value="Mobile Banking"><label for="">Mobile Banking</label>
+            <input type="checkbox" value="SMS alerts" ><label for="">SMS alerts</label>
+          </td>
+        
+        </tr>
+        <tr>
+          <td rowspan="">Address</td>
+          <td> <textarea name="" id="" cols="30" rows="5"></textarea></td>
+        </tr>
+        <tr>
+          <td><label for="">Country</label></td>
+          <td><select name="Country" id="">
+            <option value="">please select</option>
+          </select></td>
+        </tr>
+        <tr>
+          <td>Zipe Code*</td>
+          <td><input type="text"></td>
+        </tr>
+        <tr>
+          <td>Phone</td>
+          <td><input type="number" name="number"></td>
+        </tr>
+        <tr>
+          <td>Email *</td>
+          <td><input type="email" name="email" ></td>
+        </tr>
+        <tr>
+          <td>Password(6-8  character)</td>
+          <td><input type="password" name="password"  maxlength="8"></td>
+        </tr>
+        <tr>
+          <td>Verify Password *</td>
+          <td><input type="password" name="password"  maxlength="8"></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <button type="submit">Send</button>
+            <button type="reset">Clear</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
